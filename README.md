@@ -19,3 +19,19 @@ For each employee, prints their name followed by the sequence of denominations r
 
 Input File Format
 The input file "mafia.txt" should contain data in the following format:
+<employee_name_1> <reward_amount_1>
+<employee_name_2> <reward_amount_2>
+
+Where:
+<employee_name> is the name of the employee.
+<reward_amount> is the numeric value representing the reward amount.
+
+Example
+Suppose the "mafia.txt" file contains the following data:
+John 150
+Smith 75
+
+The program will output:
+John BAB
+Smith FFFFF
+Indicating that John received 1x100 (B), 1x50 (A), and Smith received 5x10 (F).
